@@ -1,0 +1,53 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Estilizando as seções */
+.menina {
+    text-align: center;
+    padding: 60px;
+}
+
+.menina img {
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Efeitos ao passar o mouse */
+.menina:hover {
+    background-color: #ff69b4;
+}
+
+div {
+    font-size: 20px;
+}
+
+
+
+
